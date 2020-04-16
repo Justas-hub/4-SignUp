@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Sign up</title>
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="left">
+            <h1>Sign up</h1>
+            <div class="links">
+                <a href="#">Privacy policy</a>
+                <span>&</span>
+                <a href="#">terms of service</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="close">x</div>
+            <form>
+                <fieldset class="form-row">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Your username here...">
+                </fieldset>
+                <fieldset class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </fieldset>
+                <fieldset class="form-row">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" placeholder="password here...">
+                </fieldset>
+                <fieldset class="form-row">
+                    <label for="repeat-pass">Repeat password</label>
+                    <input type="password" name="repeat-pass">
+                </fieldset>
+                <div class="form-row">
+                    <div class="btn">Get started</div>
+                    <span>or</span>
+                    <a href="#">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
